@@ -56,7 +56,7 @@ function Navbar() {
             <Drawer open={open} onClose={handleClose} position='right'>
                 <Drawer.Header title="Help Desk" />
                 <Drawer.Items>
-                    <Sidebar>
+                    <Sidebar className='[&>div]:bg-transparent'>
                         <Sidebar.Items>
                             <Sidebar.ItemGroup>
                                 <Sidebar.Item href={'/'}>
