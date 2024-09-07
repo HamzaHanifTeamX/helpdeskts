@@ -20,7 +20,7 @@ const ServicesCarousel: React.FC = () => {
   };
 
   return (
-    <div className="px-10 py-16 md:px-32 md:py-28 lg:px-48 lg:py-28 xl:px-64 xl:py-36">
+    <div className="px-14 py-36 md:px-28 lg:px-40 xl:px-64">
       <div>
         <h3 className="text-xl font-bold text-zinc-950" style={{ fontFamily: "SF Pro Display" }} >
           Our Services

@@ -4,7 +4,7 @@ import React from 'react'
 const InfoSection = () => {
   return (
     <div>
-      <div className='flex flex-col justify-between gap-4 px-14 py-10 md:flex-row xl:px-64'>
+      <div className='flex flex-col justify-between gap-4 px-14 py-10 md:flex-row md:px-28 lg:px-40 xl:px-64'>
         <div className='flex flex-col justify-center gap-4'>
             <p className="text-center text-2xl font-bold text-zinc-950 md:text-left" style={{ fontFamily: 'SF Pro Display' }}>
                 Professional Assistance
