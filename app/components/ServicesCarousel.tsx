@@ -22,35 +22,23 @@ const ServicesCarousel: React.FC = () => {
   return (
     <div className="px-10 py-16 md:px-32 md:py-28 lg:px-48 lg:py-28 xl:px-64 xl:py-36">
       <div>
-        <h3
-          className="text-xl font-bold text-zinc-950"
-          style={{ fontFamily: "SF Pro Display" }}
-        >
+        <h3 className="text-xl font-bold text-zinc-950" style={{ fontFamily: "SF Pro Display" }} >
           Our Services
         </h3>
         <div className="mb-5 flex items-center justify-between">
-          <h2
-            className="text-4xl font-bold text-zinc-950"
-            style={{ fontFamily: "SF Pro Display" }}
-          >
+          <h2 className="text-4xl font-bold text-zinc-950" style={{ fontFamily: "SF Pro Display" }} >
             Discover Expert Helpers
           </h2>
           <div className="flex items-center justify-between gap-2">
-            <button
-              className="flex size-12 items-center justify-center rounded-full border border-zinc-950 bg-white"
-              onClick={handlePrev}
-            >
+            <button className="flex size-12 items-center justify-center rounded-full border border-zinc-950 bg-white" onClick={handlePrev} >
               <ChevronLeft />
             </button>
-            <button
-              className="flex size-12 items-center justify-center rounded-full border border-zinc-950 bg-white"
-              onClick={handleNext}
-            >
+            <button className="flex size-12 items-center justify-center rounded-full border border-zinc-950 bg-white" onClick={handleNext}>
               <ChevronRight />
             </button>
           </div>
-        </div>
-        <div>
+        </div>                          
+        <div className="mb-10">
           <Swiper
             loop
             slidesPerView={4}
@@ -131,6 +119,11 @@ const ServicesCarousel: React.FC = () => {
                 </div>
             </SwiperSlide>
           </Swiper>
+        </div>
+        <div className="flex justify-center">
+          <button className='rounded-3xl bg-[#070707] px-10 py-2 text-xl font-bold text-white transition-transform ease-linear hover:scale-110 focus:ring-4 focus:ring-black/75 focus:ring-offset-1' style={{ fontFamily: 'SF Pro Display'}}>
+            View All
+          </button>
         </div>
       </div>
     </div>
