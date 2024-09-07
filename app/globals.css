@@ -21,3 +21,10 @@ body {
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("/fonts/SFPROTEXTMEDIUM.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
