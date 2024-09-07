@@ -53,29 +53,37 @@ function Navbar() {
                     <Image src={'/icons/menu.svg'} width={24} height={24} alt="menu icon" className='size-[24px] md:size-[32px]'/>
                 </button>
             </div>
-            <Drawer open={open} onClose={handleClose} position='right'>
-                <Drawer.Header title="Help Desk" />
+            <Drawer open={open} onClose={handleClose} position='right' className='w-52 overflow-x-hidden md:w-64'>
+                <Drawer.Header title="Help Desk" titleIcon={() => <></>} />
                 <Drawer.Items>
-                    <Sidebar className='[&>div]:bg-transparent'>
+                    <Sidebar className='[&>div]:bg-transparent [&>div]:p-0'>
                         <Sidebar.Items>
                             <Sidebar.ItemGroup>
-                                <Sidebar.Item href={'/'}>
+                                <Sidebar.Item href={'/'} className='bg-transparent text-xl font-semibold text-[#070707]'>
                                     Home
                                 </Sidebar.Item>
-                                <Sidebar.Item href={'/services'}>
+                                <Sidebar.Item href={'/services'} className='bg-transparent text-xl font-semibold text-[#070707]'>
                                     Services
                                 </Sidebar.Item>
-                                <Sidebar.Item href={'/aboutus'}>
+                                <Sidebar.Item href={'/aboutus'} className='bg-transparent text-xl font-semibold text-[#070707]'>
                                     About Us
                                 </Sidebar.Item>
-                                <Sidebar.Item href={'/pricing'}>
+                                <Sidebar.Item href={'/pricing'} className='bg-transparent text-xl font-semibold text-[#070707]'>
                                     Pricing
                                 </Sidebar.Item>
-                                <Sidebar.Item href={'/faqs'}>
+                                <Sidebar.Item href={'/faqs'} className='bg-transparent text-xl font-semibold text-[#070707]'>
                                     FAQs
                                 </Sidebar.Item>
-                                <Sidebar.Item href={'/contactus'}>
+                                <Sidebar.Item href={'/contactus'} className='bg-transparent text-xl font-semibold text-[#070707]'>
                                     Contact Us
+                                </Sidebar.Item>
+                                <Sidebar.Item href={'/login'} className='bg-transparent text-xl font-medium text-[#070707] hover:underline'>
+                                    Log in
+                                </Sidebar.Item>
+                                <Sidebar.Item>
+                                    <button className='rounded-full bg-[#070707] px-6 py-2 text-white' style={{ fontFamily: 'SF Pro Display', fontWeight: 'bold'}}>
+                                        Sign Up
+                                    </button>    
                                 </Sidebar.Item>
                             </Sidebar.ItemGroup>
                         </Sidebar.Items>
