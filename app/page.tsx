@@ -1,3 +1,4 @@
+import FAQs from "./components/FAQs";
 import HeroSection from "./components/HeroSection";
 import InfoSection from "./components/InfoSection";
 import ServicesCarousel from "./components/ServicesCarousel";
@@ -10,6 +11,7 @@ export default function Home() {
       <ServicesCarousel />
       <InfoSection />
       <VideoSection />
+      <FAQs />
     </main>
   );
 }
