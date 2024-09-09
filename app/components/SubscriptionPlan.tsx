@@ -28,7 +28,7 @@ const SubscriptionPlan = () => {
         <div className='flex flex-col items-center justify-center gap-4 md:flex-row'>
             {
                 subscriptionPlans.map((plan, index) => (
-                    <div className='flex h-80 w-72 md:w-96 flex-col justify-between rounded-lg border bg-white p-5 shadow' key={index}>
+                    <div className='flex h-80 w-72 flex-col justify-between rounded-lg border bg-white p-5 shadow md:w-96' key={index}>
                         <div className='flex flex-col gap-3'>
                             <p className="text-2xl font-normal text-zinc-950" style={{ fontFamily: 'SF Pro Display' }}>{plan.name}</p>
                             <p className="text-5xl font-bold text-zinc-950" style={{ fontFamily: 'SF Pro Display' }}>{plan.price} AED</p>
