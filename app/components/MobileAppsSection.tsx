@@ -4,7 +4,7 @@ import Image from 'next/image'
 const MobileAppsSection = () => {
   return (
     <div>
-        <div className='flex flex-col items-center justify-between gap-4 px-14 py-10 md:flex-row md:px-28 lg:px-32'>
+        <div className='flex flex-col items-center justify-between gap-4 px-14 py-10 md:flex-row md:px-28'>
             <div className='flex flex-col gap-7'>
                 <h3 className="text-3xl font-bold text-zinc-950 xl:text-5xl" style={{ fontFamily: 'SF Pro Display' }}>Download Our<br/>User Application</h3>
                 <div className='flex flex-row gap-3'>
