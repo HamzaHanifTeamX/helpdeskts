@@ -6,7 +6,7 @@ const SecuritySection = () => {
     <div>
         <div className='flex flex-col justify-between gap-10 p-10 md:px-14 lg:flex-row lg:px-40 xl:px-64'>
             <div>
-                <Image src={"/images/securityimage.png"} width={700} height={700} alt="security image" className='md:size-[500px] lg:h-[500px] lg:w-[700px]' />
+                <Image src={"/images/securityimage.png"} width={700} height={700} alt="security image" className='md:size-[500px] lg:h-[500px] lg:w-[700px] xl:h-[600px]' />
             </div>
             <div className='flex w-auto flex-col gap-3 lg:w-[600px] lg:gap-5'>
                 <p className="text-left text-xl font-bold text-zinc-950 xl:text-2xl" style={{ fontFamily: 'SF Pro Display' }}>Secure Guard</p>

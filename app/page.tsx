@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import InfoSection from "./components/InfoSection";
 import SecuritySection from "./components/SecuritySection";
 import ServicesCarousel from "./components/ServicesCarousel";
+import SubscriptionPlan from "./components/SubscriptionPlan";
 import VideoSection from "./components/VideoSection";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <VideoSection />
       <FAQs />
       <SecuritySection />
+      <SubscriptionPlan />
     </main>
   );
 }
