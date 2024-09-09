@@ -13,7 +13,7 @@ const MobileAppsSection = () => {
                 </div>
             </div>
             <div>
-                <Image src="/images/mobileapppic.png" width={700} height={700} alt="mobile image" className='md:h-[250px] md:w-[400px] lg:h-[400px] lg:w-[600px] xl:h-[600px]' />
+                <Image src="/images/mobileapppic.png" width={700} height={700} alt="mobile image" className='md:h-[250px] md:w-[400px] lg:h-[400px] lg:w-[600px] xl:h-[600px] xl:w-[800px]' />
             </div>
             <div className='flex flex-col gap-7'>
                 <h3 className="text-right text-3xl font-bold text-zinc-950 xl:text-5xl" style={{ fontFamily: 'SF Pro Display' }}>Download Our<br/>Helper Application</h3>

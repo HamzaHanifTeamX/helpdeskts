@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ThemeModeScript } from "flowbite-react";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Help Desk",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
