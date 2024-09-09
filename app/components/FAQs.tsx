@@ -10,13 +10,16 @@ const FAQs = () => {
             answer: "To begin, simply sign up for an account on our website or mobile app. Once registered, you can submit your request for assistance in your desired category,and our system will guide you through the rest of the process seamlessly."
         },
         {
-            question: "Can I trust the confidentiality of my information?"
+            question: "Can I trust the confidentiality of my information?",
+            answer: "To begin, simply sign up for an account on our website or mobile app. Once registered, you can submit your request for assistance in your desired category,and our system will guide you through the rest of the process seamlessly."
         },
         {
-            question: "What if I'm not satisfied with the service I receive?"
+            question: "What if I'm not satisfied with the service I receive?",
+            answer: "To begin, simply sign up for an account on our website or mobile app. Once registered, you can submit your request for assistance in your desired category,and our system will guide you through the rest of the process seamlessly."
         },
         {
-            question: "Are your helpers qualified and vetted?"
+            question: "Are your helpers qualified and vetted?",
+            answer: "To begin, simply sign up for an account on our website or mobile app. Once registered, you can submit your request for assistance in your desired category,and our system will guide you through the rest of the process seamlessly."
         }
     ]
   return (
