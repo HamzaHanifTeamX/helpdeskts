@@ -17,7 +17,7 @@ const Footer = () => {
             <div className='mb-12 flex flex-col items-center justify-center gap-6'>
                 <div className="text-center text-xl font-medium leading-relaxed text-white" style={{ fontFamily: 'SF Pro Display' }}>Subscribe to our newsletter</div>
                 <div className='flex w-auto flex-row items-center justify-between rounded-full border border-gray-300 md:w-96'>
-                    <input type="email" className="border-none bg-transparent p-3 text-white placeholder:text-white" placeholder="Enter your email address" />
+                    <input type="email" className="border-none bg-transparent p-3 text-white placeholder:text-white focus:border-0 focus:border-none focus:outline-none focus:outline-0 focus:ring-0" placeholder="Enter your email address" />
                     <button className="inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-center text-xl font-medium leading-relaxed text-slate-900" style={{ fontFamily: 'SF Pro Display' }}>
                         Subscribe
                     </button>
