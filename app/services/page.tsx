@@ -5,6 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import Loading from "../components/loading";
 
 const Page = () => {
+  
     const fetchData = async () => {
       const response = await axios.get("https://dummyjson.com/posts/");
       return response.data;
